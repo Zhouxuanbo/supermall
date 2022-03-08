@@ -1,6 +1,6 @@
 <template>
   <TabBar>
-    <TabBarItem path="/home" activeColor="blue">
+    <TabBarItem path="/home" activeColor="#3f7ee6">
       <img slot="item png" src="@/assets/img/tabbar/home.png" alt="">
       <img slot="item-png-active" src="@/assets/img/tabbar/home-active.png" alt="">
       <div slot="item text">首页</div>
@@ -10,12 +10,12 @@
       <img slot="item-png-active" src="@/assets/img/tabbar/category-active.png" alt="">
       <div slot="item text">分类</div>
     </TabBarItem>
-    <TabBarItem path="/cart" activeColor="deeppink">
+    <TabBarItem path="/cart" activeColor="#dede22">
       <img slot="item png" src="@/assets/img/tabbar/shopcart.png" alt="">
       <img slot="item-png-active" src="@/assets/img/tabbar/shopcart-active.png" alt="">
       <div slot="item text">购物车</div>
     </TabBarItem>
-    <TabBarItem path="/profile" activeColor="blue">
+    <TabBarItem path="/profile" activeColor="#33e0e0">
       <img slot="item png" src="@/assets/img/tabbar/profile.png" alt="">
       <img slot="item-png-active" src="@/assets/img/tabbar/profile-active.png" alt="">
       <div slot="item text">我的</div>
